@@ -252,9 +252,9 @@ fn exec_user_turn(board: &mut Board) {
             println!("Invalid Move");
         }
 
-        println!("--------------------");
-        show_board(*board);
     }
+    println!("--------------------");
+    show_board(*board);
 }
 
 fn interactive_loop(mut board: Board, ply_count: i8) {
